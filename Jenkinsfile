@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building jenkinsss my job.."
+                echo "Buildingg jenkinsss my job.."
                 sh '''
                 cd myapp
                 pip install -r requirements.txt
